@@ -18,12 +18,7 @@ public class Person implements Comparable{
 		 * 인자로 전달된 o와 같다면 0을 반환
 		 * **/
 		Person p = (Person)o;
-		if(this.age > p.age)
-			return 1;
-		else if(this.age < p.age)
-			return -1;
-		else
-			return 0;
+		return this.age - p.age;
 	}
 
 	@Override
