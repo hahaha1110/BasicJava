@@ -1,4 +1,4 @@
-package chapter21;
+package chapter21.noGeneric;
 
 public class FruitAndBox {
 	public static void main(String[] args) {
