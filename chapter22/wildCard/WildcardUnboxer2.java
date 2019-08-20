@@ -1,4 +1,4 @@
-package chapter22;
+package chapter22.wildCard;
 
 class Box<T>{
 	private T ob;
@@ -23,12 +23,12 @@ class Unboxer{
 	}
 	
 	// 상자 안의 내용물을 출력하는 기능의 제네릭 메소드
-	public static <T> void peekBox(Box<T> box) {
+	public static void peekBox(Box<?> box) { //와일드카드 사용
 		System.out.println(box);
 	}
 }
 
-public class WildcardUnboxer {
+public class WildcardUnboxer2 {
 	public static void main(String[] args) {
 		Box<String> box = new Box<>();
 		box.set("남도현 귀여워");
