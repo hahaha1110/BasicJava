@@ -13,7 +13,7 @@ public class Num {
 	
 	@Override
 	public int hashCode() {
-		return num;	// num 의 값이 같으면 부류도 같다.
+		return num % 3;	// num 의 값이 같으면 부류도 같다.
 	}
 	
 	@Override
