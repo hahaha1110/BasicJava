@@ -18,7 +18,7 @@ public class ConversionCollection {
 		
 		// ArraysList<E>ÀÇ ¼øÈ¯
 		for (Iterator<String> itr = list.iterator() ; itr.hasNext() ;) {
-			System.out.print(itr.next() + '\t');
+			System.out.print(itr.next() + "\t");
 		}
 		System.out.println();
 		
