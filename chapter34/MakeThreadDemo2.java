@@ -5,7 +5,7 @@ class Task extends Thread{
 		int n1 = 10;
 		int n2 = 20;
 		String name = Thread.currentThread().getName();
-		System.out.println(name + ": " + (n1 + n2));
+		System.out.println(name + ": " + (n1 +n2));
 	}
 }
 
